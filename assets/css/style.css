@@ -1,0 +1,230 @@
+body, html{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background-color: #fff;
+    
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 50px;
+    margin-top: 10px;
+    
+}
+.container{
+    height: 100%;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.container a{
+    text-decoration: none;
+    color:#000;
+    font-size: 14px;
+}
+.profile{
+    background-color:#0000ee;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.profile:hover{
+    box-shadow: 1px 1px 5px 1px #00008b;
+}
+.google-apps{
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    
+}
+.google-apps .point{
+    height: 4px;
+    width: 4px;
+    margin: 1px;
+    border-radius: 15px;
+    background-color:#292929;
+    
+}
+.google-apps:hover{
+    box-shadow: 1px 1px 5px 1px #666;
+    
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding:56px;
+    margin-top: -10px;
+    
+    
+    
+}
+img {
+    padding: 10px;
+    max-height: 100px;
+    position:relative;
+}
+.img-search {
+    height: 20px;
+    width: auto;
+    cursor: pointer;
+}
+.img-search1 {
+    float: left;
+    height: 20px;
+    width: auto;
+}
+input {
+    background-color: transparent;
+    height: 30px;
+    width: 100%;
+    border: transparent;
+    justify-content: center;
+    box-decoration-break:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    
+    
+}
+.box-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0px auto;
+    width:80%;
+    
+  
+}
+.divsearch {
+    display: flex;
+    background-color:transparent;
+    border: 1px solid #ccc;
+    border-radius: 24px;
+    width: 100%;
+    max-width: 575px;
+    height: 40px;
+    margin: 8px 20px;
+    justify-content: center;
+    align-items: center;
+   
+} 
+.divsearch:hover{
+    box-shadow: 1px 1px 5px 1px #666;
+}
+.ifsearch{
+    background-color:transparent;
+    font-size:14px;
+    outline: none;
+    height:40px;
+    padding: 2px;
+    justify-content: space-evenly; 
+    
+}
+.button {
+    display: flex;
+    padding-top: 18px;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button {
+    height: 34px;
+    background-color: #f5f5f5;
+    padding: 0 16px;
+    border: transparent;
+    border-radius: 4px;
+    color: #242424;
+    font-size: 14px;
+    margin: 11px 4px;
+    align-items: center;
+    cursor:pointer;
+    
+}
+button:hover{
+    box-shadow: 1px 1px 5px 1px #666;
+}
+
+footer {
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+}
+.country {
+    padding: 15px 30px;
+    border-bottom:  1px solid #ddd;
+    font-size: 14px;
+    
+}
+span {
+    color: #666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.foot {
+    display: flex;
+    padding:5px 20px;
+}
+.footer1 a, .footer2 a{
+    padding: 15px 30px;
+    font-size: 14px;
+    color: #666;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.footer1 {
+    display:flex;
+    align-items: center;
+}
+.footer2 {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content:flex-end;
+}
+@media (max-width:600px){
+    .foot {
+        flex-direction: column;
+    }
+    .footer1, .footer2 {
+        justify-content: center;
+    }
+    .footer1 a, .footer2 a {
+        padding: 15px 15px;
+        
+    }
+    img{
+        width:50%;
+    }
+    
+
+}
